@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>C&A - Moda Feminina, Masculina, Infantil, Celulares e Beleza</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar d-flex justify-content-around navbar-expand-sm">
+            
+
+                <div class=" logo-div d-flex" id="mynavbar">
+                    <a href=""><img src="images/header-logo.png" height="30" width="40" alt="Logo C&A"></a>
+                    <form class=" search d-flex">
+                        <input class=" search form-control" type="text"
+                            placeholder="busque por produto, categoria ou marca...">
+                        <button class="btn btn-dark" type="button">Pesquisar</button>
+                    </form>
+                </div>
+
+                <div class="d-flex">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Serviços e <br>
+                            <strong>Atendimentos</strong>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Minha conta e <br>
+                            <strong>Meus pedidos</strong>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carousel1.webp" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel2.webp" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel3.webp" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel4.webp" class="d-block w-100" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+        </div>
+
+        <h2>Top Hits</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-1">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/card1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Alfaiataria</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/card2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogger</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/card3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camisas e Regatas</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/card4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vestidos</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Está em alta!</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-1">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/2card1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Pra torcer junto</strong></h5>
+                        <p>Da estética brazilcore à Copa do Mundo, a melhor torcida é a nossa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/2card2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><Strong>Jeans + Sustentável</Strong></h5>
+                        <p>Peças que contribuem para uma moda de impacto positivo no planeta.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/2card3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Games e Acessórios</strong></h5>
+                        <p>Uma seleção com os maiores e mais desejados lançamentos para você.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Ofertas muito on</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-1">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/3card1.webp" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/3card2.webp" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/3card3.webp" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div class="banner my-5">
+            <img src="images/banner.jpg" />
+            <button class="btn btn-dark">Entre em contato</button>
+        </div>
+
+        <h2 class="servicos">Serviços</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-1">
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="images/4card1.webp" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="images/4card2.webp" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="images/4card3.webp" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="images/4card4.webp" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="d-flex justify-content-around flex-wrap" style="background-color: #ddd; padding: 20px; ">
+                <div>
+                    <h3>Cadastre-se</h3>
+                    <p>e fique por dentro das novidades</p>
+                </div>
+                <div>
+                    <p><strong>email</strong></p>
+                    <input type="email" name="email" placeholder="email@ex.com">
+                </div>
+                <div>
+                    <p>
+                        <strong>selecione seu gênero</strong>
+                    </p>
+                    <forms>
+                        <input type="radio" name="genero" value="feminino">
+                        <label for="feminino">feminino</label>
+                        <input type="radio" name="genero" value="masculino">
+                        <label for="masculino">masculino</label>
+                        </form>
+                </div>
+                <button class="btn btn-dark">enviar</button>
+            </div>
+
+
+            <p style="text-align:end; margin: 10px 10px;">ao clicar em "enviar" você concorda com os <strong><a
+                        href="">termos de uso da C&A</a></strong></p>
+
+            <div class="d-flex justify-content-around flex-wrap" style="margin-top: 40px;">
+
+                <div>
+                    <div>
+                        <p class="pstrong">feminino</p>
+                        <ul>
+                            <li><a href="">blusas</a></li>
+                            <li><a href="">macacões e jardineiras</a></li>
+                            <li><a href="">vestidos</a></li>
+                            <li><a href="">saias</a></li>
+                            <li><a href="">moda praia</a></li>
+                            <li><a href="">biquínis</a></li>
+                            <li><a href="">moda íntima</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="pstrong">plus size</p>
+                        <ul>
+                            <li><a href="">vestidos</a></li>
+                            <li><a href="">moda íntima</a></li>
+                            <li><a href="">casacos e jaquetas</a></li>
+                            <li><a href="">calças</a></li>
+                            <li><a href="">blusas</a></li>
+                            <li><a href="">shorts e bermudas</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="pstrong">masculino</p>
+                        <ul>
+                            <li><a href="">camisetas</a></li>
+                            <li><a href="">camisas</a></li>
+                            <li><a href="">bermudas</a></li>
+                            <li><a href="">calças</a></li>
+                            <li><a href="">cuecas e meias</a></li>
+                            <li><a href="">jaquetas e casacos</a></li>
+                            <li><a href="">moda praia</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="pstrong">beleza</p>
+                        <ul>
+                            <li><a href="">perfumes</a></li>
+                            <li><a href="">maquiagem</a></li>
+                            <li><a href="">cosméticos masculinos</a></li>
+                            <li><a href="">perfume feminino</a></li>
+                            <li><a href="">acessórios</a></li>
+                            <li><a href="">corpo e banho</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="pstrong">infantil</p>
+                        <ul>
+                            <li><a href="">bodies</a></li>
+                            <li><a href="">conjuntos</a></li>
+                            <li><a href="">vestidos</a></li>
+                            <li><a href="">shorts e bermudas</a></li>
+                            <li><a href="">moda praia</a></li>
+                            <li><a href="">calçados</a></li>
+                            <li><a href="">calças</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="pstrong">eletrônicos</p>
+                        <ul>
+                            <li><a href="">celulares</a></li>
+                            <li><a href="">kindle</a></li>
+                            <li><a href="">tablets</a></li>
+                            <li><a href="">fones de ouvido</a></li>
+                            <li><a href="">caixa de som</a></li>
+                            <li><a href="">carregadores</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex ml-2">
+                <div class="d-flex flex-column ">
+                    <p><strong>glossário</strong></p>
+                    <h5><strong>C&A</strong></h5>
+                </div>
+
+                <div class="d-flex mt-3 flex-wrap">
+                    <ul class="d-flex flex-wrap gloss">
+                        <li>
+                            <p>A</p>
+                        </li>
+                        <li>
+                            <p>B</p>
+                        </li>
+                        <li>
+                            <p>C</p>
+                        </li>
+                        <li>
+                            <p>D</p>
+                        </li>
+                        <li>
+                            <p>E</p>
+                        </li>
+                        <li>
+                            <p>F</p>
+                        </li>
+                        <li>
+                            <p>G</p>
+                        </li>
+                        <li>
+                            <p>H</p>
+                        </li>
+                        <li>
+                            <p>I</p>
+                        </li>
+                        <li>
+                            <p>J</p>
+                        </li>
+                        <li>
+                            <p>K</p>
+                        </li>
+                        <li>
+                            <p>L</p>
+                        </li>
+                        <li>
+                            <p>M</p>
+                        </li>
+                        <li>
+                            <p>N</p>
+                        </li>
+                        <li>
+                            <p>O</p>
+                        </li>
+                        <li>
+                            <p>P</p>
+                        </li>
+                        <li>
+                            <p>Q</p>
+                        </li>
+                        <li>
+                            <p>R</p>
+                        </li>
+                        <li>
+                            <p>S</p>
+                        </li>
+                        <li>
+                            <p>T</p>
+                        </li>
+                        <li>
+                            <p>U</p>
+                        </li>
+                        <li>
+                            <p>V</p>
+                        </li>
+                        <li>
+                            <p>W</p>
+                        </li>
+                        <li>
+                            <p>X</p>
+                        </li>
+                        <li>
+                            <p>Y</p>
+                        </li>
+                        <li>
+                            <p>Z</p>
+                        </li>
+                        <li>
+                            <p>0-9</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-around flex-wrap mt-5 ">
+                <div>
+                    <p class="center"><strong class="center">institucional</strong></p>
+                    <ul>
+                        <li>
+                            <p><a href="">sobre a C&A</a></p>
+                            <p><a href="">fornecedores</a></p>
+                            <p><a href="">termos e condições</a></p>
+                            <p><a href="">política de privacidade</a></p>
+                            <p><a href="">configurações de privacidade</a></p>
+                            <p><a href="">trabalhe conosco</a></p>
+                            <p><a href="">sustentabilidade</a></p>
+                            <p><a href="">mapa do site</a></p>
+                            <p><a href="">investidores</a></p>
+                            <p><a href="">sala de imprensa</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div>
+                        <p class="center">
+                            <strong class="center">C&A&VC</strong>
+                        </p>
+                        <ul>
+                            <li><a href="">participe do programa</a></li>
+                        </ul>
+
+                    </div>
+
+
+                    <div>
+                        <p class="center">
+                            <strong class="center">cartão C&A</strong>
+                        </p>
+                        <ul>
+                            <li><a href="">sobre o cartão C&A</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="center">
+                            <strong class="center">C&A Pay</strong>
+                        </p>
+                        <ul>
+                            <li><a href="">solicite seu cartão</a></li>
+                            <li><a href="">tira sua dúvida por email</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="center">
+                            <strong class="center">cartão presente</strong>
+                        </p>
+                        <ul>
+                            <li><a href="">sobre o cartão de presente C&A</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div>
+                        <p class="center"> <strong class="center">serviços</strong> </p>
+                        <ul>
+                            <li>
+                                <p><a href="">tipos de entrega</a></p>
+                                <p><a href="">clique & retire</a></p>
+                                <p><a href="">trocas & devoluções</a></p>
+                                <p><a href="">formas de pagamento</a></p>
+                                <p><a href="">todas as vantagens</a></p>
+                                <p><a href="">minha c&a</a></p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="center"> <strong class="center">mindse7</strong> </p>
+                        <ul>
+                            <li>
+                                <p><a href="">veja coleção</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div>
+                        <p class="center">
+                            <strong class="center">marketplace C&A</strong>
+                        </p>
+                        <ul>
+                            <li><a href="">venda na C&A</a></li>
+                            <li><a href="">Marketplace</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="center">
+                            <strong class="center">atendimentos</strong>
+                        </p>
+                        <ul>
+                            <li><a href="">ajuda</a></li>
+                            <li><a href="">fale conosco</a></li>
+                            <li><a href="">nossas lojas</a></li>
+                            <li><a href="">central de ética C&A</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="center">
+                            <strong class="center">eventos</strong>
+                        </p>
+                        <ul>
+                            <li><a href="">black friday</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h5 class="mt-5 ml-3">C&A pelo mundo</h5>
+            <div class="d-flex pais">
+                <ul class="d-flex flex-wrap">
+                    <li><a href="">Brasil</a></li>
+                    <li><a href="">Alemanha</a></li>
+                    <li><a href="">Áustria</a></li>
+                    <li><a href="">Belgie</a></li>
+                    <li><a href="">Belgique</a></li>
+                    <li><a href="">China</a></li>
+                    <li><a href="">Croácia</a></li>
+                    <li><a href="">Eslováquia</a></li>
+                    <li><a href="">Eslovênia</a></li>
+                    <li><a href="">Espanha</a></li>
+                    <li><a href="">França</a></li>
+                    <li><a href="">Holanda</a></li>
+                    <li><a href="">Húngria</a></li>
+                    <li><a href="">Itália</a></li>
+                    <li><a href="">Luxemburgo</a></li>
+                    <li><a href="">México</a></li>
+                    <li><a href="">Polônia</a></li>
+                    <li><a href="">Portugal</a></li>
+                    <li><a href="">República Tcheca</a></li>
+                    <li><a href="">Romênia</a></li>
+                    <li><a href="">Schweiz</a></li>
+                    <li><a href="">Sérvia</a></li>
+                    <li><a href="">Suíça</a></li>
+                    <li><a href="">Svizzera</a></li>
+                </ul>
+            </div>
+
+            <h5 class=" my-4 center"  >permaneça conectado</h5>
+            <div class="center" >
+
+                <a href=""><img src="images/footerfacebook.png" alt=""></a>
+                <a href=""><img src="images/footerinsta.png" alt=""></a>
+                <a href=""><img src="images/footertwitter.png" alt=""></a>
+
+            </div>
+                <div class="center my-3">
+            <button class="btn btn-outline-dark">
+                <h5>app C&A</h5>
+                <p>conheça as vantagens</p>
+            </button>
+        </div>
+
+        <div class="d-flex justify-content-between" >
+            <div>
+                <p><strong class="ml-3">formas de pagamento</strong></p>
+                <ul class="d-flex flex-wrap" >
+                    <li><img src="images/pix.png" alt=""></li>
+                    <li><img src="images/visa.png" alt=""></li>
+                    <li><img src="images/mastercard.png" alt=""></li>
+                    <li><img src="images/dinersclub.png" alt=""></li>
+                    <li><img src="images/hipercard.png" alt=""></li>
+                    <li><img src="images/elo.png" alt=""></li>
+                    <li><img src="images/cartaocea.png" alt=""></li>
+                    <li><img src="images/cartaopresente.png" alt=""></li>
+                    <li><img src="images/codigobarras.png" alt=""></li>
+                    <li><img src="images/ceapay.png" alt=""></li>
+                </ul>
+            </div>
+            
+            <div>
+                <p><strong>segurança e qualidade</strong></p>
+                <ul class="d-flex flex-wrap">
+                    <li><img src="images/E.png" alt=""></li>
+                    <li><img style="width: 98px;" src="images/siteblindado.png" alt=""></li>
+                    <li><img src="images/ebit.png" alt=""></li>
+                    <li><img src="images/mark.png" alt=""></li>
+                    <li><img src="images/epoca.png" alt=""></li>
+                    <li><img  src="images/ibest.png" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <p class="mt-10">**FRETE GRÁTIS nas compras acima de R$ 249,99 **Frete fixo de R$ 9,99 para todo o Brasil até a de R$ 249,99 em compras (opção normal) **Frete fixo de R$ 12,99 para todo o brasil até a de R$ 249,99 em compras (opção agendada, expressa, presente e rápida).
+
+            **Ganhe *10% de desconto na compra de 5 peças ou mais realizada na LOJA FÍSICA no dia da emissão do CARTÃO C&A. Desconto não será aplicado na adesão do cartão pelo site, na compra de eletrônicos, relógios, cosméticos e itens em promoção. Descontos não cumulativos e não aplicáveis nas lojas localizadas Shopping Midway Mall, Natal Shopping, Norte Shopping, Brasília Boulevard, Pátio Brasil Shopping, Shopping Conjunto Nacional, Park Shopping, Águas Claras Shopping, Shopping JK Ceilândia, Alameda Shopping, Shopping Taguatinga.
+            
+            Entrega Rápida: válida somente para a cidade de São Paulo e regiões metropolitanas e para produtos vendidos e entregues por C&A Modas saindo do nosso centro de distribuição. A entrega é feita em até 2 horas, contando a partir do momento da aprovação do pedido. Horário de atendimento de Segunda a Sábado das 8h às 18h. Confira as regras na hora do fechamento do pedido. Para mais informações acesse: https://www.cea.com.br/servicos/tipos-de-entrega.
+            
+            *Promoções válidas enquanto durarem os estoques, em itens selecionados. Saiba o regulamento de cada campanha e ação promocional na vitrine específica da promoção. Todas as comunicações do site podem possuir imagens meramente ilustrativas e podem ser encerradas a qualquer momento. Os preços poderão variar durante a navegação, sem aviso prévio. Pode também ocorrer divergência entre o preço exibido no detalhe do produto e o preço apresentado no carrinho de compras. Em caso de divergências de preços, o valor válido será o do carrinho de compras.
+            
+            **Retire suas compras realizadas pelo APP e site da C&A em até 3 horas utilizando a modalidade de entrega Clique e Retire. O prazo de retirada é válido para compras aprovadas até as 17h00. Compras aprovadas após as 17h00 poderão ser retiradas no dia seguinte, após abertura da loja escolhida. Prazo de entrega válido para produtos disponíveis na loja selecionada. Consulte disponibilidade e prazos antes de concluir sua compra. O serviço em loja e o horário de abertura podem variar considerando os protocolos e regras locais para combate ao COVID-19. Válido para produtos vendidos e entregues pela C&A, estando excluídos os produtos de lojas parceiras vendidos pelo Marketplace.
+            
+            Copyright Notice: © C&A e suas entidades relacionadas. Todos os direitos reservados. Conheça nossos Termos e Condições de Uso do Site C&A. C&A Modas SA.  Fale conosco pelo chat on-line - Alameda Araguaia, 1222, Alphaville – Barueri – SP Cep: 06455-000 CNPJ 45.242.914/0001-05</p>
+
+        </footer>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

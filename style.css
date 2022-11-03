@@ -1,0 +1,92 @@
+.search{
+    box-sizing: inherit;
+    width: 100%;
+}
+
+.mid-button{
+    margin: 0 5px;
+}
+
+.logo-div{
+    box-sizing: inherit;
+    width: 60%;
+}
+
+button{
+    cursor: pointer;
+}
+
+.carousel-control-prev,.carousel-control-next{
+    opacity: 0;
+}
+
+h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.banner {
+    display:inline-block;
+    position:relative;
+    width: 100%;
+    height: 144px;
+}
+
+.banner img {
+    display:inline-block;
+    position:relative;
+    width: 100%;
+    height: 200px;
+}
+.banner button {
+    position:absolute;
+    top:50%;
+    left:62%;
+    border-radius: 20px;
+}
+
+.servicos{
+    margin-top: 10vh;
+    margin-left: 20px;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+.pstrong{
+    font-weight: bold;
+}
+
+li a{
+    color: black;
+}
+
+.gloss li{
+    margin: 0 1vw;
+}
+
+.vw-1{
+    width: 1vw;
+}
+
+.center{
+    text-align: center;
+}
+
+.pais ul li a::after{
+    content: "|";
+    display: inline;
+    margin-left: 7px;
+}
+
+.pais ul li a{
+    
+    margin-left: 7px;
+
+}
